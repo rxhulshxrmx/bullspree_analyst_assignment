@@ -13,3 +13,5 @@ We gather key data to track important user behaviors, with everything neatly str
 - **Purchase Behavior**: Every cart addition, purchase attempt, and completed transaction is logged, along with the payment status.
 
 By organizing all this data—such as user details, course activities, and purchases—we can analyze user behaviors to enhance their experience and drive better decision-making.
+![ER_Diagram](https://github.com/user-attachments/assets/0dea854d-f460-4586-bfae-878d66317260)
+
