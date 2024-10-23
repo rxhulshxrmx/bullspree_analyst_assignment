@@ -14,4 +14,4 @@ We gather key data to track important user behaviors, with everything neatly str
 
 By organizing all this data—such as user details, course activities, and purchases—we can analyze user behaviors to enhance their experience and drive better decision-making.
 
-<img src="https://github.com/user-attachments/assets/0dea854d-f460-4586-bfae-878d66317260" alt="ER_Diagram" width="500"/>
+![ER_Diagram](https://github.com/user-attachments/assets/b1a34f77-0700-4e0e-93d4-77dae5e4f5c4)
