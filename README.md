@@ -10,6 +10,7 @@ We gather key data to track important user behaviors, with everything neatly str
 - **Session Tracking** (`USER_APP_SESSIONS` table): Every app session is captured, including when users open or close the app, how long they stay active, which features they use, and their navigation history.
 - **Quiz Performance** (`QUIZ_ATTEMPTS` table): We track when users start a quiz, how they respond to each question, how quickly they finish, and their success rates.
 - **Purchase Behavior** (`USER_PURCHASES` table): Every cart addition, purchase attempt, and completed transaction is logged, along with the payment status.
+
 By organizing all this data—such as user details, course activities, and purchases—we can analyze user behaviors to enhance their experience and drive better decision-making.
 
 ![ER_Diagram](https://github.com/user-attachments/assets/9db3a41a-d02c-4029-b207-ee654f6af73b)
