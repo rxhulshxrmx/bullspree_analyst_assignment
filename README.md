@@ -3,19 +3,6 @@
 
 ## Problem 1: Comprehensive User Behavior Tracking System
 
-### Background Overview:
-The current system lacks functionality to track and analyze essential user behaviors, including:
-
-- New user sign-ups
-- Course interactions and purchase attempts
-- Single vs. multiple course purchases
-- Time intervals between purchases by the same user
-- Time from registration to first purchase (min/avg/max)
-- Course completion rates
-- Quiz participation and success rates
-- Average daily app usage
-- Peak times for uninstalls and purchases
-
 ### 1. Collecting the Right Data for Analysis:
 We gather key data to track important user behaviors, with everything neatly structured in the ER diagram. Here’s how the data flows:
 
