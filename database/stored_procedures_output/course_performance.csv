@@ -1,0 +1,11 @@
+course_id,course_name,difficulty_level,total_views,purchases,completions,cart_abandons,wishlist_adds,avg_quiz_score
+C001,Stock Market Basics,Beginner,3500,650,580,95,825,82.5
+C002,Technical Analysis Fundamentals,Intermediate,3100,580,490,82,745,79.8
+C003,Advanced Options Trading,Advanced,2800,480,385,105,685,76.3
+C004,Day Trading Strategies,Advanced,3300,620,555,78,790,81.1
+C005,Fundamental Analysis,Intermediate,3400,635,565,85,805,83.4
+C006,Risk Management in Trading,Intermediate,2950,540,475,75,715,80.9
+C007,Forex Trading Basics,Beginner,2650,450,365,98,645,78.2
+C008,Cryptocurrency Trading,Intermediate,2750,495,410,88,665,77.6
+C009,Algorithmic Trading,Advanced,2580,435,355,102,625,75.8
+C010,Portfolio Management,Advanced,2720,465,375,95,655,77.1

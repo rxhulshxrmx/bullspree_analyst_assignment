@@ -36,6 +36,5 @@ For effective visualization and analysis, the following tools and technologies s
 
 - **Figma:** Using Figma to create drafts of company-specific, uniform reporting templates that enhance clarity and consistency.
 - **Tableau:** Implement Tableau for interactive dashboards that allow stakeholders to quickly grasp insights through visual data representation using figma templates.
-- **Excel:** Utilize Excel for ad-hoc reporting, enabling flexible analysis and customization of reports as needed.
 
 Links to the Excel and Tableau dashboards will be added here for reference.
