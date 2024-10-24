@@ -39,7 +39,3 @@ For effective visualization and analysis, the following tools and technologies s
 - **Excel:** Utilize Excel for ad-hoc reporting, enabling flexible analysis and customization of reports as needed.
 
 Links to the Excel and Tableau dashboards will be added here for reference.
-
-### 4. Data-Driven Suggestions:
-(- Provide actionable insights based on the data collected.
-- Suggest strategies to enhance user engagement and optimize the user journey.)
