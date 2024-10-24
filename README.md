@@ -35,6 +35,6 @@ The Daily MIS report should encompass key performance metrics that reflect user 
 For effective visualization and analysis, the following tools and technologies should are used: 
 
 - **Figma:** Using Figma to create drafts of company-specific, uniform reporting templates that enhance clarity and consistency.
-- **Tableau:** Implement Tableau for interactive dashboards that allow stakeholders to quickly grasp insights through visual data representation using figma templates. [Tableau Dashboards](https://public.tableau.com/app/profile/rxhulshxrmx/vizzes)
+- **Tableau:** Implement Tableau for interactive dashboards that allow stakeholders to quickly grasp insights through visual data representation using figma templates.
 
-Links to the figma and Tableau dashboards will be added here for reference.
+Links for the Tableau and Figma templates will be added here for this assignment! In the meantime, check out my other dashboards involving similar work. [Tableau Dashboards](https://public.tableau.com/views/MintClassicCompany/F_Warehouses?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
