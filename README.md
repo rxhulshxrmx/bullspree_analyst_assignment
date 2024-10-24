@@ -14,8 +14,10 @@ By organizing all this data—such as user details, course activities, and purch
 
 ### 2. Steps of Execution:
 An SQL database was created with tables for users, courses, modules, and quizzes. Indexes were implemented to enhance query performance, and denormalized views were created for easier visualization from normalized data.
+[database.sql](database/database.sql)
 
 Stored procedures were utilized for data processing and metric calculations. These procedures can be automated using Python scripts to generate metrics on demand.
+[stored_procedures.sql](database/stored_procedures.sql)
 
 **Advantages of Stored Procedures:**
 - **Performance:** Stored procedures provide better performance through precompilation, which can speed up execution time.
