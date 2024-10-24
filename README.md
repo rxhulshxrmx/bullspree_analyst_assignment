@@ -13,9 +13,9 @@ By organizing all this data—such as user details, course activities, and purch
 You can view the [ER Diagram here](https://github.com/user-attachments/assets/9db3a41a-d02c-4029-b207-ee654f6af73b).
 
 ### 2. Steps of Execution:
-An SQL database was created with tables for users, courses, modules, and quizzes. Indexes were implemented to enhance query performance, and denormalized views were created for easier visualization from normalized data. You can find the database schema in the [database.sql](database/database.sql) file.
+An SQL database was created with tables for users, courses, modules, and quizzes. Indexes were implemented to enhance query performance, and denormalized views were created for easier visualization from normalized data. You can find the database schema in the [database.sql](database/database.sql).
 
-Stored procedures were utilized for data processing and metric calculations. These procedures can be automated using Python scripts to generate metrics on demand. The stored procedures can be found in the [stored_procedures.sql](database/stored_procedures.sql) file.
+Stored procedures were utilized for data processing and metric calculations. These procedures can be automated using Python scripts to generate metrics on demand. The stored procedures can be found in the [stored_procedures.sql](database/stored_procedures.sql).
 
 **Advantages of Stored Procedures:**
 - **Performance:** Stored procedures provide better performance through precompilation, which can speed up execution time.
