@@ -1,6 +1,6 @@
 ## Problem 1: Comprehensive User Behavior Tracking System
 
-### 1. Collecting the Right Data for Analysis:
+### 1. Collecting the Right Data for Analysis
 We gather key data to track important user behaviors, with everything neatly structured in the ER diagram. Here’s how the data flows:
 - **User Registration & Status** (`USERS` table): From the moment a user signs up, we track their activity—whether they install or uninstall the app, and their last seen timestamp.
 - **Course Interactions** (`USER_COURSE_INTERACTIONS` table): We log every time a user clicks on a course, adds something to their wishlist or cart, attempts a purchase, and how far they progress in the course.
@@ -12,7 +12,7 @@ By organizing all this data—such as user details, course activities, and purch
 
 ![ER Diagram here](database/ER_Diagram.png)
 
-### 2. Steps of Execution:
+### 2. Steps of Execution
 An SQL database was created with tables for users, courses, modules, and quizzes. Indexes were implemented to enhance query performance, and denormalized views were created for easier visualization from normalized data. You can find the database schema in the [database.sql](database/database.sql).
 
 Stored procedures were utilized for data processing and metric calculations. These procedures can be automated using Python scripts to generate metrics on demand. The stored procedures can be found in the [stored_procedures.sql](database/stored_procedures.sql).
@@ -23,7 +23,7 @@ Stored procedures were utilized for data processing and metric calculations. The
 - **Maintainability:** They allow for easier maintainability and reusability across different applications.
 - **Transaction Management:** They ensure robust transaction management, maintaining data integrity and consistency.
 
-### 3. Daily MIS Tracking:
+### 3. Daily MIS Tracking
 The Daily MIS report should encompass key performance metrics that reflect user engagement and course performance. Essential metrics to visualize include:
 
 - **User Registration and Activity:** Total new users, active users, and uninstalls.
@@ -32,12 +32,15 @@ The Daily MIS report should encompass key performance metrics that reflect user 
 - **Quiz Performance:** Average scores, quiz attempts, and completion rates.
 - **Purchase Behavior:** Total purchases, revenue generated, and cart abandonment rates.
 
-For effective visualization and analysis, the following tools and technologies should are used: 
+For effective visualization and analysis, the following tools and technologies are used: 
 
 - **Figma:** Using Figma to create drafts of company-specific, uniform reporting templates that enhance clarity and consistency.
-- **Tableau:** Implement Tableau for interactive dashboards that allow stakeholders to quickly grasp insights through visual data representation using figma templates.
+- **Tableau:** Implement Tableau for interactive dashboards that allow stakeholders to quickly grasp insights through visual data representation using Figma templates.
 
 Links for the Tableau and Figma templates will be added here for this assignment! In the meantime, check out my other dashboards involving similar work. [Tableau Dashboards](https://public.tableau.com/views/MintClassicCompany/F_Warehouses?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-It took me extra time to develop these dashboards because I was writing the SQL database queries from scratch, as I aimed to create a minimum viable product (MVP).
-Here's my [resume](https://drive.google.com/file/d/1yyNwcVv1eiETabK3F5CyGD7BCjRqYDXU/view?usp=sharing)
+It's taking me extra time to develop these dashboards because I was writing the SQL database queries from scratch, as I aimed to create a minimum viable product (MVP).
+
+In addition to my current work, I have been involved with National Institute of Securities Markets (NISM), promoting financial literacy, which aligns with Bullspree's goals. I also participated in two SEBI competitions at national-level in Mumbai.
+
+Here's my [resume](https://drive.google.com/file/d/1yyNwcVv1eiETabK3F5CyGD7BCjRqYDXU/view?usp=sharing).
