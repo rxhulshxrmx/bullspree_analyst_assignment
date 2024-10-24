@@ -24,9 +24,21 @@ Stored procedures were utilized for data processing and metric calculations. The
 - **Transaction Management:** They ensure robust transaction management, maintaining data integrity and consistency.
 
 ### 3. Daily MIS Tracking:
-write about key metrics which are visualized here, and what should the daily report contain.
-(- Design a daily MIS report format to track and visualize key metrics.
-- Recommend tools and technologies for generating and maintaining the MIS - Figma to create a draft for company-specific uniformed reporting and used in Tableau for presentations and quickly grasping things. Excel dashboard for ad-hoc reporting) I will add Excel and Tableau dashboard links here.
+The Daily MIS report should encompass key performance metrics that reflect user engagement and course performance. Essential metrics to visualize include:
+
+- **User Registration and Activity:** Total new users, active users, and uninstalls.
+- **Course Interactions:** Number of course clicks, wishlist additions, and progress completion rates.
+- **Session Analytics:** Average session duration and feature usage statistics.
+- **Quiz Performance:** Average scores, quiz attempts, and completion rates.
+- **Purchase Behavior:** Total purchases, revenue generated, and cart abandonment rates.
+
+For effective visualization and analysis, the following tools and technologies should are used: 
+
+- **Figma:** Using Figma to create drafts of company-specific, uniform reporting templates that enhance clarity and consistency.
+- **Tableau:** Implement Tableau for interactive dashboards that allow stakeholders to quickly grasp insights through visual data representation using figma templates.
+- **Excel:** Utilize Excel for ad-hoc reporting, enabling flexible analysis and customization of reports as needed.
+
+Links to the Excel and Tableau dashboards will be added here for reference.
 
 ### 4. Data-Driven Suggestions:
 (- Provide actionable insights based on the data collected.
