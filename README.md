@@ -10,7 +10,7 @@ We gather key data to track important user behaviors, with everything neatly str
 
 By organizing all this data—such as user details, course activities, and purchases—we can analyze user behaviors to enhance their experience and drive better decision-making.
 
-![ER Diagram here](database/ER_Diagram.png).
+![ER Diagram here](database/ER_Diagram.png)
 
 ### 2. Steps of Execution:
 An SQL database was created with tables for users, courses, modules, and quizzes. Indexes were implemented to enhance query performance, and denormalized views were created for easier visualization from normalized data. You can find the database schema in the [database.sql](database/database.sql).
