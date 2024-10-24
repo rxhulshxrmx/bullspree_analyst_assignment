@@ -41,6 +41,4 @@ Links for the Tableau and Figma templates will be added here for this assignment
 
 It's taking me extra time to develop these dashboards because I was writing the SQL database queries from scratch, as I aimed to create a minimum viable product (MVP).
 
-In addition to my current work, I have been involved with National Institute of Securities Markets (NISM), promoting financial literacy, which aligns with Bullspree's goals. I also participated in two SEBI competitions at national-level in Mumbai.
-
-Here's my [resume](https://drive.google.com/file/d/1yyNwcVv1eiETabK3F5CyGD7BCjRqYDXU/view?usp=sharing).
+In addition to my current work, I have been involved with National Institute of Securities Markets (NISM), promoting financial literacy, which aligns with Bullspree's goals. I also participated in two SEBI competitions at national-level in Mumbai. Here's my [resume](https://drive.google.com/file/d/1yyNwcVv1eiETabK3F5CyGD7BCjRqYDXU/view?usp=sharing).
