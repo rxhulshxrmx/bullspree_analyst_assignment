@@ -38,3 +38,6 @@ For effective visualization and analysis, the following tools and technologies s
 - **Tableau:** Implement Tableau for interactive dashboards that allow stakeholders to quickly grasp insights through visual data representation using figma templates.
 
 Links for the Tableau and Figma templates will be added here for this assignment! In the meantime, check out my other dashboards involving similar work. [Tableau Dashboards](https://public.tableau.com/views/MintClassicCompany/F_Warehouses?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+It took me extra time to develop these dashboards because I was writing the SQL database queries from scratch, as I aimed to create a minimum viable product (MVP).
+Here's my [resume](https://drive.google.com/file/d/1yyNwcVv1eiETabK3F5CyGD7BCjRqYDXU/view?usp=sharing)
