@@ -11,7 +11,66 @@ We gather key data to track user behaviors, structured in the ER diagram. Here's
 
 By organizing data like user details, course activities, and purchases, we can analyze behaviors to enhance user experience and decision-making.
 
-![ER Diagram here](database/ER_Diagram.png)
+```mermaid
+erDiagram
+    USERS ||--|{ USER_APP_SESSIONS : has
+    USERS ||--|{ USER_PURCHASES : makes
+    COURSES ||--|{ MODULES : contains
+    MODULES ||--|{ QUIZZES : has
+    USERS ||--|{ COURSE_PROGRESS : tracks
+    COURSES ||--|{ COURSE_PROGRESS : "tracked in"
+    USERS ||--|{ QUIZ_ATTEMPTS : takes
+    QUIZZES ||--|{ QUIZ_ATTEMPTS : "attempted in"
+    USERS ||--|{ USER_COURSE_INTERACTIONS : performs
+    COURSES ||--|{ USER_COURSE_INTERACTIONS : receives
+
+    USERS {
+        bigint user_id PK
+        varchar username
+        varchar email
+        varchar status
+    }
+    COURSES {
+        bigint course_id PK
+        varchar course_name
+        varchar difficulty_level
+        decimal price
+    }
+    MODULES {
+        bigint module_id PK
+        varchar module_name
+        int sequence_number
+    }
+    QUIZZES {
+        bigint quiz_id PK
+        varchar quiz_name
+        int passing_score
+    }
+    USER_COURSE_INTERACTIONS {
+        bigint interaction_id PK
+        varchar interaction_type
+        varchar status
+    }
+    COURSE_PROGRESS {
+        bigint progress_id PK
+        varchar completion_status
+    }
+    QUIZ_ATTEMPTS {
+        bigint attempt_id PK
+        int score
+        varchar status
+    }
+    USER_APP_SESSIONS {
+        bigint session_id PK
+        timestamp start_time
+        timestamp end_time
+    }
+    USER_PURCHASES {
+        bigint purchase_id PK
+        decimal amount
+        varchar status
+    }
+```
 
 ### 2. Steps of Execution
 - **Database Creation:** SQL database with tables for users, courses, modules, and quizzes.
