@@ -24,21 +24,43 @@ Stored procedures were utilized for data processing and metric calculations. The
 - **Transaction Management:** They ensure robust transaction management, maintaining data integrity and consistency.
 
 ### 3. Daily MIS Tracking
-The Daily MIS report should encompass key performance metrics that reflect user engagement and course performance. Essential metrics to visualize include:
 
-- **User Registration and Activity:** Total new users, active users, and uninstalls.
-- **Course Interactions:** Number of course clicks, wishlist additions, and progress completion rates.
-- **Session Analytics:** Average session duration and feature usage statistics.
-- **Quiz Performance:** Average scores, quiz attempts, and completion rates.
-- **Purchase Behavior:** Total purchases, revenue generated, and cart abandonment rates.
+The Daily MIS report highlights key metrics that provide actionable insights to enhance user experience and drive decisions:
 
+- **New User Registration & Activity:**
+   - **Tracks:** New users, active users, and uninstalls.
+   - **Why it Matters:** Measures user acquisition, retention, and churn.
+
+- **Conversion Rates:**  
+   - **Formula:** (Conversions / Total Visitors) * 100  
+   - **Why it Matters:** Shows how effectively users convert into paying customers or sign-ups.
+
+- **Course Clicks & Purchase Attempts:**
+   - **Tracks:** Page/Screen Views per Session  
+   - **Why it Matters:** Highlights interest in courses and potential purchase friction points.
+
+- **Course Completion & User Retention:**
+   - **Formula:** ((Users at End - New Users) / Users at Start) * 100  
+   - **Why it Matters:** Indicates content quality and user satisfaction.
+
+- **Quiz Participation & Success Rates:**
+   - **Tracks:** Time on Page = Total Time / Number of Sessions  
+   - **Why it Matters:** Enhances quiz content by identifying strengths and weaknesses.
+
+- **Average Daily Time Spent:**
+   - **Tracks:** Session duration  
+   - **Why it Matters:** Measures app engagement and feature usage.
+
+- **Timing of Maximum Uninstalls & Purchases:**
+   - **Tracks:** Click-Through Rates (CTR)  
+   - **Why it Matters:** Identifies critical touchpoints for churn and conversion.
+
+These metrics support targeted improvements, ensuring better alignment with user needs and business outcomes.
 For effective visualization and analysis, the following tools and technologies are used: 
 
 - **Figma:** Using Figma to create drafts of company-specific, uniform reporting templates that enhance clarity and consistency.
 - **Tableau:** Implement Tableau for interactive dashboards that allow stakeholders to quickly grasp insights through visual data representation using Figma templates.
 
 Links for the Tableau and Figma templates will be added here for this assignment! In the meantime, check out my other dashboards involving similar work. [Tableau Dashboards](https://public.tableau.com/views/MintClassicCompany/F_Warehouses?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-It's taking me extra time to develop these dashboards because I was writing the SQL database queries from scratch, as I aimed to create a minimum viable product (MVP).
 
 In addition to my current work, I have been involved with National Institute of Securities Markets (NISM), promoting financial literacy, which aligns with Bullspree's goals. I also participated in two SEBI competitions at national-level in Mumbai. Here's my [resume](https://drive.google.com/file/d/1yyNwcVv1eiETabK3F5CyGD7BCjRqYDXU/view?usp=sharing).
