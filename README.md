@@ -1,66 +1,70 @@
 ## Problem 1: Comprehensive User Behavior Tracking System
 
 ### 1. Collecting the Right Data for Analysis
-We gather key data to track important user behaviors, with everything neatly structured in the ER diagram. Here’s how the data flows:
-- **User Registration & Status** (`USERS` table): From the moment a user signs up, we track their activity—whether they install or uninstall the app, and their last seen timestamp.
-- **Course Interactions** (`USER_COURSE_INTERACTIONS` table): We log every time a user clicks on a course, adds something to their wishlist or cart, attempts a purchase, and how far they progress in the course.
-- **Session Tracking** (`USER_APP_SESSIONS` table): Every app session is captured, including when users open or close the app, how long they stay active, which features they use, and their navigation history.
-- **Quiz Performance** (`QUIZ_ATTEMPTS` table): We track when users start a quiz, how they respond to each question, how quickly they finish, and their success rates.
-- **Purchase Behavior** (`USER_PURCHASES` table): Every cart addition, purchase attempt, and completed transaction is logged, along with the payment status.
+We gather key data to track user behaviors, structured in the ER diagram. Here's how the data flows:
 
-By organizing all this data—such as user details, course activities, and purchases—we can analyze user behaviors to enhance their experience and drive better decision-making.
+- **User Registration & Status** (`USERS` table): Tracks user activity—install/uninstall and last seen.
+- **Course Interactions** (`USER_COURSE_INTERACTIONS` table): Logs course clicks, wishlist/cart additions, purchase attempts, and progress.
+- **Session Tracking** (`USER_APP_SESSIONS` table): Captures each session—app open/close, session duration, features used, and navigation history.
+- **Quiz Performance** (`QUIZ_ATTEMPTS` table): Logs quiz attempts, responses, completion speed, and success rates.
+- **Purchase Behavior** (`USER_PURCHASES` table): Tracks cart additions, purchase attempts, completed transactions, and payment status.
+
+By organizing data like user details, course activities, and purchases, we can analyze behaviors to enhance user experience and decision-making.
 
 ![ER Diagram here](database/ER_Diagram.png)
 
 ### 2. Steps of Execution
-An SQL database was created with tables for users, courses, modules, and quizzes. Indexes were implemented to enhance query performance, and denormalized views were created for easier visualization from normalized data. You can find the database schema in the [database.sql](database/database.sql).
+- **Database Creation:** SQL database with tables for users, courses, modules, and quizzes.
+- **Indexes:** Implemented to enhance query performance.
+- **Denormalized Views:** Created for easier visualization from normalized data.
+  - Schema available in the [database.sql](database/database.sql).
 
-Stored procedures were utilized for data processing and metric calculations. These procedures can be automated using Python scripts to generate metrics on demand. The stored procedures can be found in the [stored_procedures.sql](database/stored_procedures.sql).
-
-**Advantages of Stored Procedures:**
-- **Performance:** Stored procedures provide better performance through precompilation, which can speed up execution time.
-- **Security:** They enhance security by encapsulating business logic and limiting direct access to data.
-- **Maintainability:** They allow for easier maintainability and reusability across different applications.
-- **Transaction Management:** They ensure robust transaction management, maintaining data integrity and consistency.
+- **Stored Procedures:** Utilized for data processing and metric calculations.
+  - Available in the [stored_procedures.sql](database/stored_procedures.sql).
+  - **Advantages:**
+    - **Performance:** Speeds up execution through precompilation.
+    - **Security:** Encapsulates business logic and limits direct access.
+    - **Maintainability:** Easier to maintain and reuse across applications.
+    - **Transaction Management:** Ensures data integrity and consistency.
 
 ### 3. Daily MIS Tracking
 
-The Daily MIS report highlights key metrics that provide actionable insights to enhance user experience and drive decisions:
+The Daily MIS report highlights key performance metrics for actionable insights:
 
-- **New User Registration & Activity:**
-   - **Tracks:** New users, active users, and uninstalls.
+- **New User Registration & Activity:**  
+   - **Tracks:** New users, active users, and uninstalls.  
    - **Why it Matters:** Measures user acquisition, retention, and churn.
 
 - **Conversion Rates:**  
    - **Formula:** (Conversions / Total Visitors) * 100  
-   - **Why it Matters:** Shows how effectively users convert into paying customers or sign-ups.
+   - **Why it Matters:** Reflects how effectively users convert into paying customers.
 
-- **Course Clicks & Purchase Attempts:**
+- **Course Clicks & Purchase Attempts:**  
    - **Tracks:** Page/Screen Views per Session  
-   - **Why it Matters:** Highlights interest in courses and potential purchase friction points.
+   - **Why it Matters:** Highlights course interest and friction points in the purchase process.
 
-- **Course Completion & User Retention:**
+- **Course Completion & User Retention:**  
    - **Formula:** ((Users at End - New Users) / Users at Start) * 100  
-   - **Why it Matters:** Indicates content quality and user satisfaction.
+   - **Why it Matters:** Indicates user satisfaction and content quality.
 
-- **Quiz Participation & Success Rates:**
+- **Quiz Participation & Success Rates:**  
    - **Tracks:** Time on Page = Total Time / Number of Sessions  
-   - **Why it Matters:** Enhances quiz content by identifying strengths and weaknesses.
+   - **Why it Matters:** Helps refine quiz content by identifying trends in participation and performance.
 
-- **Average Daily Time Spent:**
+- **Average Daily Time Spent:**  
    - **Tracks:** Session duration  
-   - **Why it Matters:** Measures app engagement and feature usage.
+   - **Why it Matters:** Measures overall app engagement and usage.
 
-- **Timing of Maximum Uninstalls & Purchases:**
+- **Timing of Maximum Uninstalls & Purchases:**  
    - **Tracks:** Click-Through Rates (CTR)  
-   - **Why it Matters:** Identifies critical touchpoints for churn and conversion.
+   - **Why it Matters:** Pinpoints churn and conversion touchpoints.
 
-These metrics support targeted improvements, ensuring better alignment with user needs and business outcomes.
-For effective visualization and analysis, the following tools and technologies are used: 
+These metrics help guide improvements, ensuring alignment with both user needs and business outcomes.
 
-- **Figma:** Using Figma to create drafts of company-specific, uniform reporting templates that enhance clarity and consistency.
-- **Tableau:** Implement Tableau for interactive dashboards that allow stakeholders to quickly grasp insights through visual data representation using Figma templates.
+### 4. Tools & Technologies
+- **Figma:** To create company-specific, uniform reporting templates for clarity and consistency.
+- **Tableau:** For interactive dashboards that provide stakeholders with insights through data visualization, using Figma templates.
 
-Links for the Tableau and Figma templates will be added here for this assignment! In the meantime, check out my other dashboards involving similar work. [Tableau Dashboards](https://public.tableau.com/views/MintClassicCompany/F_Warehouses?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+Links to the Tableau and Figma templates will be added here. Meanwhile, feel free to explore my other [Tableau Dashboards](https://public.tableau.com/views/MintClassicCompany/F_Warehouses?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
-In addition to my current work, I have been involved with National Institute of Securities Markets (NISM), promoting financial literacy, which aligns with Bullspree's goals. I also participated in two SEBI competitions at national-level in Mumbai. Here's my [resume](https://drive.google.com/file/d/1yyNwcVv1eiETabK3F5CyGD7BCjRqYDXU/view?usp=sharing).
+In addition, I’ve been promoting financial literacy with NISM and have participated in SEBI national-level competitions in Mumbai. Here's my [resume](https://drive.google.com/file/d/1yyNwcVv1eiETabK3F5CyGD7BCjRqYDXU/view?usp=sharing).
