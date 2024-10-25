@@ -77,7 +77,6 @@ erDiagram
 - **Indexes:** Implemented to enhance query performance.
 - **Denormalized Views:** Created for easier visualization from normalized data.
   - Schema available in the [database.sql](database/database.sql).
-
 - **Stored Procedures:** Utilized for data processing and metric calculations.
   - Available in the [stored_procedures.sql](database/stored_procedures.sql).
   - **Advantages:**
@@ -89,7 +88,6 @@ erDiagram
 ### 3. Daily MIS Tracking
 
 The Daily MIS report highlights key performance metrics for actionable insights:
-
 - **New User Registration & Activity:**  
    - **Tracks:** New users, active users, and uninstalls.  
    - **Why it Matters:** Measures user acquisition, retention, and churn.
