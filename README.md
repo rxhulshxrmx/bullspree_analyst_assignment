@@ -149,5 +149,3 @@ Links to the Tableau and Figma templates will be added here. Meanwhile, feel fre
    - **Internal Linking:** Recommend related content or courses to entice users to explore further within the platform.  
    - **Clear and Structured Content:** Organize content in a way that's easy to digest, keeping users engaged and interested.
 
-
-In addition, I’ve been promoting financial literacy with NISM and have participated in SEBI national-level competitions in Mumbai. Here's my [resume](https://drive.google.com/file/d/1yyNwcVv1eiETabK3F5CyGD7BCjRqYDXU/view?usp=sharing).
